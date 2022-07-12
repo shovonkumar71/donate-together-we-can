@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+
+
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+#banner {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), black), url(images/FLOOD.JPG);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+
+}
+
+.banner-text {
+    text-align: center;
+    color: #fff;
+    padding-top: 200px;
+
+}
+
+.banner-text h1 {
+    font-size: 50px;
+}
+
+.banner-text p {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.banner-btn {
+    margin: 30px auto 0;
+}
+
+.banner-btn a {
+    width: 150px;
+    text-decoration: none;
+
+    padding: 12px 24px;
+    color: #fff;
+    border-radius: 5px;
+    background-image: linear-gradient(red, tomato);
+}
+
+#feature {
+    width: 100%;
+    padding: 70px 0;
+    text-align: center;
+    padding-bottom: 70px;
+    margin: 10px;
+}
+
+
+
+h1 {
+    margin: auto;
+    font-size: 50px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    margin: 19px;
+}
+
+.card-content {
+    padding: 15px 15PX;
+    background-color: rgb(246, 248, 251);
+    margin: 20px 5px;
+    color: rgb(77, 81, 84);
+
+}
+
+#card-unique {
+    padding: 15px 15PX;
+    background-color: rgb(245, 220, 215);
+    margin: 20px 5px;
+    color: tomato;
+    border: 1PX solid tomato;
+
+
+}
+
+input {
+
+    width: 800px;
+    height: 50px;
+    font-size: 20PX;
+    text-align: center;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid grey;
+
+}
+
+.plan-area {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    margin: 0 100px;
+
+}
+
+.card-detail-1 {
+    padding: 30px 20PX;
+    background-color: rgb(184, 206, 236);
+    margin: 20px 5px;
+    color: black;
+    text-align: left;
+
+}
+
+.card-detail-2 {
+    padding: 30px 20PX;
+    background-color: rgb(238, 157, 157);
+    margin: 20px 5px;
+    color: black;
+    text-align: left;
+
+}
+
+.card-detail-3 {
+    padding: 30px 20PX;
+    background-color: rgb(236, 236, 131);
+    margin: 20px 5px;
+    color: black;
+    text-align: left;
+
+}
+
+.icon-style {
+    font-size: 50px;
+    padding: 10px;
+}
+
+.half-card {
+    display: flex;
+    margin: 40px 100px;
+
+}
+
+.half-width {
+    width: 80%;
+
+    padding-left: 20px;
+
+
+}
+
+.half-width img {
+    width: 100%;
+
+}
+
+#other-half {
+    margin-left: 80px;
+}
+
+#service-left {
+    margin-left: 30px;
+}
+
+.contact-form {
+    text-align: center;
+    color: black;
+    padding-top: 50px;
+    margin-bottom: 150px;
+    border-spacing: none;
+
+}
+
+.box {
+    width: 700px;
+    background-color: rgb(247, 213, 213);
+    padding: 80px;
+    margin: 50px auto;
+}
+
+.box input {
+    font-size: 18px;
+    width: 50%;
+    border: none;
+    padding: 1px 11px;
+    outline: none;
+    background: rgb(230, 230, 230);
+    border-radius: 5px 0px 0px 5px;
+}
+
+.box button {
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    border-radius: 0px 5px 5px 0px;
+    padding: 15px 19px;
+    background-image: linear-gradient(red, tomato);
+}
+
+footer {
+    text-align: center;
+    color: tomato;
+    font-family: 'Lobster', cursive;
+    background: black;
+    padding: 50px;
+}
+
+footer p {
+    color: #fff;
+}
